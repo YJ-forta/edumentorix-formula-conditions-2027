@@ -1,0 +1,15 @@
+{
+  "schema_version": "forta.edumentorix.formula_conditions.v1",
+  "generated_at": "2026-06-30T15:29:48.164737+00:00",
+  "admission_year": 2027,
+  "item_count": 3710,
+  "status_counts": {
+    "calculable": 3610,
+    "waiting_for_final_table": 100
+  },
+  "season_counts": {
+    "regular": 1355,
+    "susi": 2355
+  },
+  "external_dependency_count": 100
+}

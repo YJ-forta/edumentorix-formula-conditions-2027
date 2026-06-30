@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/forta/edumentorix-formula-conditions-2027/schema/formula_conditions.schema.json",
+  "title": "Edumentorix 2027 Formula Conditions Export",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "summary",
+    "items"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "forta.edumentorix.formula_conditions.v1"
+    },
+    "summary": {
+      "type": "object"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/formula_condition_item"
+      }
+    }
+  },
+  "$defs": {
+    "formula_condition_item": {
+      "type": "object",
+      "required": [
+        "target_id",
+        "identity",
+        "components",
+        "school_record_rules",
+        "csat_rules",
+        "external_dependencies",
+        "status",
+        "formula_text",
+        "source_locator"
+      ],
+      "properties": {
+        "target_id": {
+          "type": "string"
+        },
+        "identity": {
+          "type": "object",
+          "required": [
+            "year",
+            "season",
+            "university",
+            "department",
+            "admission_type"
+          ],
+          "properties": {
+            "year": {
+              "type": "integer"
+            },
+            "season": {
+              "enum": [
+                "regular",
+                "susi"
+              ]
+            },
+            "university": {
+              "type": "string"
+            },
+            "campus": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "admission_group": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "department": {
+              "type": "string"
+            },
+            "admission_type": {
+              "type": "string"
+            },
+            "stage": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": true
+        },
+        "stages": {
+          "type": "array"
+        },
+        "components": {
+          "type": "array"
+        },
+        "school_record_rules": {
+          "type": "array"
+        },
+        "csat_rules": {
+          "type": "array"
+        },
+        "external_dependencies": {
+          "type": "array"
+        },
+        "status": {
+          "type": "object"
+        },
+        "formula_text": {
+          "type": "object"
+        },
+        "source_locator": {
+          "type": "object"
+        },
+        "resolved_review_codes": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

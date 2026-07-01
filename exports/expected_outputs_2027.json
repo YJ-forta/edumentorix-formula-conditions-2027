@@ -1,0 +1,2777 @@
+{
+  "schema_version": "forta.edumentorix.formula_conditions.v1.1",
+  "generated_at": "2026-07-01T16:13:07.665285+00:00",
+  "methodology": "One smoke fixture per canonical university when a numeric expected score is present. This is a regression fixture generated from delivered condition data, not a new calculation module.",
+  "sample_count": 115,
+  "samples": [
+    {
+      "university": "가천대학교",
+      "target_id": "6725279ec045578c",
+      "identity": {
+        "university": "가천대학교",
+        "campus": "글로벌캠퍼스",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "미술.디자인학부-조소전공",
+        "admission_type": "실기우수자전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "가톨릭관동대학교",
+      "target_id": "646672bf045a558f",
+      "identity": {
+        "university": "가톨릭관동대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "CG디자인전공",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1010.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "강남대학교",
+      "target_id": "f16d921f03f94163",
+      "identity": {
+        "university": "강남대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인학과",
+        "admission_type": "일반학생전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "강원대학교",
+      "target_id": "03a010297b833186",
+      "identity": {
+        "university": "강원대학교",
+        "campus": "삼척(도계포함)",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "자유전공학부_인문계열",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 201.5,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "건국대학교",
+      "target_id": "03452e13a6300ada",
+      "identity": {
+        "university": "건국대학교",
+        "campus": "GLOCAL",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "전 모집단위 (의예과 제외)",
+        "admission_type": "수능(지역인재전형)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "건양대학교",
+      "target_id": "2e5aee9be4bda3e1",
+      "identity": {
+        "university": "건양대학교",
+        "campus": "글로컬캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "국방XR학부",
+        "admission_type": "일반(수능)전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경기대학교",
+      "target_id": "0302b96325cd290b",
+      "identity": {
+        "university": "경기대학교",
+        "campus": "수원캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "Fine Arts 학부-서양화전공",
+        "admission_type": "일반학생전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 30.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경남대학교",
+      "target_id": "1bc0680e8feff0b8",
+      "identity": {
+        "university": "경남대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "미술교육과",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경동대학교",
+      "target_id": "49969a39819c1629",
+      "identity": {
+        "university": "경동대학교",
+        "campus": "메트로폴캠퍼스_메디컬캠퍼스",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "모든학과",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 700.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경북대학교",
+      "target_id": "1ab9368a6538e2b2",
+      "identity": {
+        "university": "경북대학교",
+        "campus": "대구",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "미술학과",
+        "admission_type": "실기/실적(예·체능)전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 150.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경상국립대학교",
+      "target_id": "0205ffef72e3126e",
+      "identity": {
+        "university": "경상국립대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "인문계열",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경성대학교",
+      "target_id": "00d13291c2126a51",
+      "identity": {
+        "university": "경성대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "산업디자인학과",
+        "admission_type": "실기특별전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경운대학교",
+      "target_id": "18308dbfa9967bb7",
+      "identity": {
+        "university": "경운대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "전체 (작업치료학과·치위생학과)",
+        "admission_type": "일반1전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경일대학교",
+      "target_id": "4926eacfdcfaf93e",
+      "identity": {
+        "university": "경일대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "자율전공학부",
+        "admission_type": "수능/학종전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 370.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "경희대학교",
+      "target_id": "db6611c58ba3a82b",
+      "identity": {
+        "university": "경희대학교",
+        "campus": "국제",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "전 모집단위 (자유전공학부, 인문·자연계열 [의예과·한의예과(인문·자연)·치의예과·약학과·한악학과·간호학과 제외], 예술·디자인대학, 체육대학 — PostModern음악학과 제외)",
+        "admission_type": "학생부교과(지역균형전형)",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 700.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "계명대학교",
+      "target_id": "069c8e27715f15ca",
+      "identity": {
+        "university": "계명대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "패션디자인과",
+        "admission_type": "실기실적_예체능전형_수능20_실기80",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 103.75,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "계원예술대학교",
+      "target_id": "0aa1e08db390b7e1",
+      "identity": {
+        "university": "계원예술대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "게임미디어과",
+        "admission_type": "일반전형(수능)",
+        "stage": "일괄",
+        "university_alias_used": "계원예대"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "고려대학교",
+      "target_id": "24130b3a053dbcf7",
+      "identity": {
+        "university": "고려대학교",
+        "campus": "서울",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "인문·자연계열 전체 (의과대학 포함)",
+        "admission_type": "교과우수전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "고신대학교",
+      "target_id": "06fcaefb9e5b7471",
+      "identity": {
+        "university": "고신대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "식품영양조리학부",
+        "admission_type": "수능위주 일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "광주대학교",
+      "target_id": "a87c22cb46830c90",
+      "identity": {
+        "university": "광주대학교",
+        "campus": "문화산업대학",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "문화산업대학(예체능) -시각영상디자인학과, 산업디자인학과,인테리어디자인학과, 패션주얼리디자인학과",
+        "admission_type": "일반학생전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 700.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "광주여자대학교",
+      "target_id": "98942514a3e5612b",
+      "identity": {
+        "university": "광주여자대학교",
+        "campus": "자연과학계열",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "AI미디어콘텐츠학과",
+        "admission_type": "일반학생전형",
+        "stage": "일괄",
+        "university_alias_used": "광주여자대"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 605.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립경국대학교",
+      "target_id": "182cac1f8c29d197",
+      "identity": {
+        "university": "국립경국대학교",
+        "campus": "자유전공학부",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "자유전공학부",
+        "admission_type": "일반학생전형",
+        "stage": "일괄",
+        "university_alias_used": "국립경국대"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1003.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립공주대학교",
+      "target_id": "0a73008c07ab278a",
+      "identity": {
+        "university": "국립공주대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "사범대학_인문사회계",
+        "admission_type": "수능_일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립군산대학교",
+      "target_id": "17148fec5a8dc665",
+      "identity": {
+        "university": "국립군산대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "인문사회계열",
+        "admission_type": "수능위주",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립목포대학교",
+      "target_id": "0175d8ee014397cd",
+      "identity": {
+        "university": "국립목포대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "자율전공학부",
+        "admission_type": "지역인재(교과)전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립부경대학교",
+      "target_id": "4fbdc0b5ae0e3193",
+      "identity": {
+        "university": "국립부경대학교",
+        "campus": "부산",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "실기/실적위주 조형학부(공업디자인전공) — 가군 실기위주",
+        "admission_type": "실기위주(가군) 예능계(조형학부 공업디자인전공)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 410.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립순천대학교",
+      "target_id": "0eedcc7c0725711f",
+      "identity": {
+        "university": "국립순천대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "지역인재전형_약학과",
+        "admission_type": "수능100_자연계",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국립창원대학교",
+      "target_id": "0343c4b081958b82",
+      "identity": {
+        "university": "국립창원대학교",
+        "campus": "거창·남해",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "자연계열",
+        "admission_type": "수능전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "국민대학교",
+      "target_id": "00d5603bd63cd88f",
+      "identity": {
+        "university": "국민대학교",
+        "campus": "미래융합대학",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "미래융합전공(B)",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "극동대학교",
+      "target_id": "36e00f96958aa456",
+      "identity": {
+        "university": "극동대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "일반학생 전체 (면접학과 제외)",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "남서울대학교",
+      "target_id": "325cfb31579b67ab",
+      "identity": {
+        "university": "남서울대학교",
+        "campus": "창조문화예술대학",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "공간조형디자인학과",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "단국대학교",
+      "target_id": "230a150059b930c3",
+      "identity": {
+        "university": "단국대학교",
+        "campus": "천안캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "미술학부-조소전공",
+        "admission_type": "일반학생전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "대구가톨릭대학교",
+      "target_id": "2e352f0e674f8202",
+      "identity": {
+        "university": "대구가톨릭대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인대학(시각·산업·뉴미디어&게임·패션·웹툰애니창작·금속주얼리)",
+        "admission_type": "실기일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 204.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "대구대학교",
+      "target_id": "0b5d3398913adce2",
+      "identity": {
+        "university": "대구대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "해당 모집단위 전체 (인문사회·자연과학·공학계열)",
+        "admission_type": "수능위주(일반)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 900.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "대구예술대학교",
+      "target_id": "01e2383c99b186f5",
+      "identity": {
+        "university": "대구예술대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "회화작가전공",
+        "admission_type": "실기/실적위주 실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 500.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "대구한의대학교",
+      "target_id": "0602aeca284bb510",
+      "identity": {
+        "university": "대구한의대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "한의예과(자연)",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 110.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "대진대학교",
+      "target_id": "54d883aff4b91ee4",
+      "identity": {
+        "university": "대진대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "인문예술대학 미술만화게임학부",
+        "admission_type": "실기/실적위주(일반학생)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "덕성여자대학교",
+      "target_id": "33dfeb6c3f42b677",
+      "identity": {
+        "university": "덕성여자대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "Art & Design대학(생활체육학전공)",
+        "admission_type": "체육실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동국대학교",
+      "target_id": "73ffb774fe0f2685",
+      "identity": {
+        "university": "동국대학교",
+        "campus": "서울",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "불교미술전공",
+        "admission_type": "실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동덕여자대학교",
+      "target_id": "0e51dee32e279e50",
+      "identity": {
+        "university": "동덕여자대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인이노베이션대학 디자인학부 패션디자인전공",
+        "admission_type": "실기우수자전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 600.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동명대학교",
+      "target_id": "24925988af0cc3ab",
+      "identity": {
+        "university": "동명대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "패션디자인학과",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 635.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동서대학교",
+      "target_id": "1e0800cf64414e07",
+      "identity": {
+        "university": "동서대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "계열2_디자인/건축/게임/애니/웹툰",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동서울대학교",
+      "target_id": "02e17bb91531f278",
+      "identity": {
+        "university": "동서울대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "메타버스게임애니메이션과",
+        "admission_type": "일반(학생부)",
+        "stage": "일괄",
+        "university_alias_used": "동서울대"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동아대학교",
+      "target_id": "392a7f25103a01c0",
+      "identity": {
+        "university": "동아대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "미술학과 (현대미술전공, 영상예술전공, 목조형가구전공, 도자예술전공)",
+        "admission_type": "일반학생전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 201.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동양대학교",
+      "target_id": "36ace09a40b0c232",
+      "identity": {
+        "university": "동양대학교",
+        "campus": "동두천",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "웹툰애니메이션학과",
+        "admission_type": "실기전형__수능30%_실기70%",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 40.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "동의대학교",
+      "target_id": "04249e6cc5454119",
+      "identity": {
+        "university": "동의대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "디자인조형학과-산업디자인",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 739.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "명지대학교",
+      "target_id": "0eaefdc497d6720f",
+      "identity": {
+        "university": "명지대학교",
+        "campus": "서울",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "자율전공학부인문",
+        "admission_type": "수능일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1003.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "명지전문대학",
+      "target_id": "22889f17f911412a",
+      "identity": {
+        "university": "명지전문대학",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "패션.리빙디자인과",
+        "admission_type": "학생부위주",
+        "stage": "일괄",
+        "university_alias_used": "명지전문대"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "목원대학교",
+      "target_id": "18d97ead815c76b1",
+      "identity": {
+        "university": "목원대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "창의예술자율전공학부",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "배재대학교",
+      "target_id": "1da2b737bda64ce3",
+      "identity": {
+        "university": "배재대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "커뮤니케이션디자인",
+        "admission_type": "수능위주(일반)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "백석대학교",
+      "target_id": "4c832831d853ac61",
+      "identity": {
+        "university": "백석대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "스포츠과학부 (태권도)",
+        "admission_type": "실기 일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "부산대학교",
+      "target_id": "0ef11eb699888b48",
+      "identity": {
+        "university": "부산대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "애니메이션전공",
+        "admission_type": "수능",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 610.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "삼육대학교",
+      "target_id": "063fbda35974eb66",
+      "identity": {
+        "university": "삼육대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "유아교육과",
+        "admission_type": "수능위주 일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "상명대학교",
+      "target_id": "0cf4f03169f1ea66",
+      "identity": {
+        "university": "상명대학교",
+        "campus": "천안캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "예술학부-무대미술전공",
+        "admission_type": "실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "상지대학교",
+      "target_id": "308560ff52f09277",
+      "identity": {
+        "university": "상지대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "리빙디자인학과",
+        "admission_type": "수능일반",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "서강대학교",
+      "target_id": "ce3cb14d8d921081",
+      "identity": {
+        "university": "서강대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "전체 모집단위",
+        "admission_type": "수능(일반-다군) A형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 710.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "서경대학교",
+      "target_id": "2f10a458f35e89ca",
+      "identity": {
+        "university": "서경대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "LF_라이프스타일디자인",
+        "admission_type": "실기우수자",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 205.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "서울대학교",
+      "target_id": "029b36242c765250",
+      "identity": {
+        "university": "서울대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "미술대학 디자인과",
+        "admission_type": "수능위주전형(일반전형) 1단계",
+        "stage": "1단계"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 600.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "서울시립대학교",
+      "target_id": "00c1533fd5ce63e3",
+      "identity": {
+        "university": "서울시립대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "자연계열Ⅱ 전체",
+        "admission_type": "수능100% 자연계Ⅱ",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "서울여자대학교",
+      "target_id": "284fc58382454aed",
+      "identity": {
+        "university": "서울여자대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "현대미술전공",
+        "admission_type": "수능·실기 일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 60.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "서원대학교",
+      "target_id": "6bf6a5875c6639ed",
+      "identity": {
+        "university": "서원대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "웹툰콘텐츠학과",
+        "admission_type": "예체능전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 20.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "선문대학교",
+      "target_id": "02297d26455586f8",
+      "identity": {
+        "university": "선문대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인학부(방송콘텐츠디자인전공)",
+        "admission_type": "실기실적_일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 201.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "성신여자대학교",
+      "target_id": "2b57d1de9a904bad",
+      "identity": {
+        "university": "성신여자대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인과",
+        "admission_type": "수능·실기 일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 275.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "세명대학교",
+      "target_id": "2d0bac7808f604a2",
+      "identity": {
+        "university": "세명대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "시각·영상디자인학과",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "세종대학교",
+      "target_id": "05a4ecc6a95d0b36",
+      "identity": {
+        "university": "세종대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인이노베이션전공",
+        "admission_type": "일반학생(정원내)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "세한대학교",
+      "target_id": "52315b2f282bc09a",
+      "identity": {
+        "university": "세한대학교",
+        "campus": "당진캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "AI융합콘텐츠학부-웹툰애니메이션학과, AI콘텐츠디자인학과, AI콘텐츠디자인학과,6차산업디자인학과 등",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "수원대학교",
+      "target_id": "346be443f59513e5",
+      "identity": {
+        "university": "수원대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "패션디자인",
+        "admission_type": "실기일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 105.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "숙명여자대학교",
+      "target_id": "16baafcd2d98f1de",
+      "identity": {
+        "university": "숙명여자대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "산업디자인과",
+        "admission_type": "예체능창의인재",
+        "stage": "일괄",
+        "university_alias_used": "숙명여대"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "순천향대학교",
+      "target_id": "278f6012895118eb",
+      "identity": {
+        "university": "순천향대학교",
+        "campus": "본교",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "전 모집단위 (나군 해당 학과)",
+        "admission_type": "수능위주(일반학생전형)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "신구대학교",
+      "target_id": "1cff1100cca037e1",
+      "identity": {
+        "university": "신구대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "패션디자인과",
+        "admission_type": "수능",
+        "stage": "일괄",
+        "university_alias_used": "신구대"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "신라대학교",
+      "target_id": "03e8df51a38855ef",
+      "identity": {
+        "university": "신라대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "게임콘텐츠디자인학과",
+        "admission_type": "일반학생 (수능위주)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "신한대학교",
+      "target_id": "06b62f925aeee16b",
+      "identity": {
+        "university": "신한대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "실내디자인학과",
+        "admission_type": "일반전형Ⅱ",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "연세대학교",
+      "target_id": "059e9bd235a882c9",
+      "identity": {
+        "university": "연세대학교",
+        "campus": "미래캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "디자인예술학부",
+        "admission_type": "디자인예술학부실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "연세대학교 미래캠퍼스",
+      "target_id": "be2a9551e1a14dfe",
+      "identity": {
+        "university": "연세대학교 미래캠퍼스",
+        "campus": "원주",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "디자인예술학부",
+        "admission_type": "실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "영남대학교",
+      "target_id": "00647d1af76855b3",
+      "identity": {
+        "university": "영남대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "공과대학, 디지털융합대학, 사회과학대학(정치외교·행정·경찰행정), 경영대학(경제금융부·무역학부), 사범대학, 글로벌인재대학 등 다군 수능위주 인문/자연 계열",
+        "admission_type": "수능위주_일반학생전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 810.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "영산대학교",
+      "target_id": "0d5029cd89e845be",
+      "identity": {
+        "university": "영산대학교",
+        "campus": "해운대",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인학부실내환경디자인전공",
+        "admission_type": "일반",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1002.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "예원예술대학교",
+      "target_id": "0e2513ed82d66d72",
+      "identity": {
+        "university": "예원예술대학교",
+        "campus": "경기드림캠",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "만화게임영상전공",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "용인대학교",
+      "target_id": "0080dac29fc478f5",
+      "identity": {
+        "university": "용인대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "인문사회계열전공학부",
+        "admission_type": "자율전공특별전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 500.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "우송대학교",
+      "target_id": "1c5bbc079f86c8a3",
+      "identity": {
+        "university": "우송대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "게임그래픽",
+        "admission_type": "미술우수자",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "울산대학교",
+      "target_id": "319b496dd4cb4931",
+      "identity": {
+        "university": "울산대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "디자인융합학부",
+        "admission_type": "실기 전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "원광대학교",
+      "target_id": "023b5654286fa6d0",
+      "identity": {
+        "university": "원광대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "그 외 학과 (의예·치의예·한의예·약학·한약학·간호·작업치료학과 제외 전 모집단위)",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "유한대학교",
+      "target_id": "1881f32d5016b76a",
+      "identity": {
+        "university": "유한대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "생활디자인학과-패션디자인전공",
+        "admission_type": "일반전형",
+        "stage": "일괄",
+        "university_alias_used": "유한대"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "을지대학교",
+      "target_id": "26491964a03ec0a6",
+      "identity": {
+        "university": "을지대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "자연계열학부",
+        "admission_type": "일반전형Ⅱ",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1005.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "이화여자대학교",
+      "target_id": "00eadc53363cec84",
+      "identity": {
+        "university": "이화여자대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "음악대학(건반악기과·관현악과·성악과·작곡과)",
+        "admission_type": "실기실적 예체능실기전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "인제대학교",
+      "target_id": "1ef4f3869c7bf075",
+      "identity": {
+        "university": "인제대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "미디어콘텐츠계열",
+        "admission_type": "수능_일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "인천가톨릭대학교",
+      "target_id": "2189d0d82817fcb7",
+      "identity": {
+        "university": "인천가톨릭대학교",
+        "campus": "송도국제캠퍼스",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "융합디자인학과",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 205.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "인천대학교",
+      "target_id": "033e922a8a8d30e0",
+      "identity": {
+        "university": "인천대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "공연예술학과",
+        "admission_type": "기회균형_실기실적",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "인하대학교",
+      "target_id": "02b4b4dd8eb60054",
+      "identity": {
+        "university": "인하대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "디자인융합학과",
+        "admission_type": "수능/실기실적",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "전남대학교",
+      "target_id": "016e511cda35930a",
+      "identity": {
+        "university": "전남대학교",
+        "campus": "광주",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "미술학과(이론전공)",
+        "admission_type": "수능(일반)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1010.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "전주대학교",
+      "target_id": "99702dae45cbb4e5",
+      "identity": {
+        "university": "전주대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "패션산업학과",
+        "admission_type": "수능(일반학생전형)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1010.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "제주대학교",
+      "target_id": "29208e5a5728cd63",
+      "identity": {
+        "university": "제주대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "자유전공",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1010.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "조선대학교",
+      "target_id": "0122ab377a835df7",
+      "identity": {
+        "university": "조선대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "서양화전공",
+        "admission_type": "실기_실기전형_예체능_수능부분",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 810.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "중부대학교",
+      "target_id": "f122dd2fd678d1fb",
+      "identity": {
+        "university": "중부대학교",
+        "campus": "고양창의캠",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "만화애니메이션학전공",
+        "admission_type": "수능우수자",
+        "stage": null
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "중앙대학교",
+      "target_id": "09070aec0cbf0467",
+      "identity": {
+        "university": "중앙대학교",
+        "campus": "서울",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "전 모집단위(인문·자연 계열별 구분)",
+        "admission_type": "수능기회균형_농어촌기초차상위",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1014.75,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "중원대학교",
+      "target_id": "050d1cde692d973c",
+      "identity": {
+        "university": "중원대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "자율전공학부",
+        "admission_type": "일반1",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 30.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "청운대학교",
+      "target_id": "068753abec9305fb",
+      "identity": {
+        "university": "청운대학교",
+        "campus": "인천",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "전 모집단위(인천캠퍼스 — 건축공학과·실비소방학과·토목환경공학과·전자공학과·컴퓨터공학과·멀티미디어학과·화학생명공학과·경영학과·무역물류학과·광고홍보학과·미래융합자율전공학부)",
+        "admission_type": "수능위주(일반)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 500.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "청주대학교",
+      "target_id": "059f475cd679816f",
+      "identity": {
+        "university": "청주대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디지털미디어학과",
+        "admission_type": "예체능",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "추계예술대학교",
+      "target_id": "168dbe98a415eddc",
+      "identity": {
+        "university": "추계예술대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "문예창작과",
+        "admission_type": "실기 일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "충남대학교",
+      "target_id": "1891be91d690f255",
+      "identity": {
+        "university": "충남대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "자율전공융합학부·인문사회융합학부",
+        "admission_type": "수능위주(일반)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "평택대학교",
+      "target_id": "c279d72eabe71b03",
+      "identity": {
+        "university": "평택대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "미디어디자인학과",
+        "admission_type": "PTU수능",
+        "stage": "일괄",
+        "university_alias_used": "평택대"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한경국립대학교",
+      "target_id": "42456ba2e3a7a9b4",
+      "identity": {
+        "university": "한경국립대학교",
+        "campus": "평택캠",
+        "year": 2027,
+        "season": "susi",
+        "admission_group": null,
+        "department": "귀금속보석공예전공",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "susi_school_record_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "school_record",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한국공학대학교",
+      "target_id": "064b6b6780d2e043",
+      "identity": {
+        "university": "한국공학대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "디자인공학-산업디자인공학전공",
+        "admission_type": "일반학생1",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 500.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한국교원대학교",
+      "target_id": "1dc40db63ad4b6ee",
+      "identity": {
+        "university": "한국교원대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "제4대학(음악·미술·체육교육과)",
+        "admission_type": "수능성적우수자",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 400.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한남대학교",
+      "target_id": "2b4eefd141c26dd0",
+      "identity": {
+        "university": "한남대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "융합디자인학과",
+        "admission_type": "실기",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한동대학교",
+      "target_id": "f007960579a749ca",
+      "identity": {
+        "university": "한동대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "콘텐츠융합디자인학부-시각디자인전공, 제품디자인전공",
+        "admission_type": "일반학생",
+        "stage": null
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한서대학교",
+      "target_id": "56ff498ffa83e34e",
+      "identity": {
+        "university": "한서대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "영상애니메이션학과",
+        "admission_type": "일반전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 100.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한성대학교",
+      "target_id": "10bcb44703afc5bb",
+      "identity": {
+        "university": "한성대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "융합보안학과(주)",
+        "admission_type": "일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 1000.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한세대학교",
+      "target_id": "0836f6d3255bda70",
+      "identity": {
+        "university": "한세대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "디자인학부",
+        "admission_type": "일반(디자인)전형",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 303.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한양대학교",
+      "target_id": "015170f29f5bb876",
+      "identity": {
+        "university": "한양대학교",
+        "campus": "ERICA",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "디자인계열",
+        "admission_type": "실기전형",
+        "stage": "2단계"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "한양대학교 ERICA",
+      "target_id": "0c32795f5b6d438c",
+      "identity": {
+        "university": "한양대학교 ERICA",
+        "campus": "ERICA",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "디자인대학 (주얼리패션디자인학과·영상디자인학과·산업디자인학과·커뮤니케이션디자인학과)",
+        "admission_type": "실기/실적위주 수능파트",
+        "stage": "2단계"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 200.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "협성대학교",
+      "target_id": "01b630581241e3e4",
+      "identity": {
+        "university": "협성대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "산업디자인학과",
+        "admission_type": "실기우수자",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 300.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "호남대학교",
+      "target_id": "0e3e969486c8cb82",
+      "identity": {
+        "university": "호남대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "전체학과 (광역모집단위 통합선발, 단 보건·사범계학과는 학과별 선발)",
+        "admission_type": "수능위주(나군_일반학생A)",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 70.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "호서대학교",
+      "target_id": "450b9fd862f002c7",
+      "identity": {
+        "university": "호서대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "가",
+        "department": "디자인스쿨",
+        "admission_type": "실기실적_일반학생",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 20.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "홍익대학교",
+      "target_id": "045d60c511f55833",
+      "identity": {
+        "university": "홍익대학교",
+        "campus": "서울",
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "나",
+        "department": "섬유미술·패션디자인과",
+        "admission_type": "수능우수자",
+        "stage": "1단계"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 190.0,
+        "unit": "points"
+      }
+    },
+    {
+      "university": "화성의과학대학교",
+      "target_id": "6ace82aa9f552b20",
+      "identity": {
+        "university": "화성의과학대학교",
+        "campus": null,
+        "year": 2027,
+        "season": "regular",
+        "admission_group": "다",
+        "department": "라이프스타일테크학과",
+        "admission_type": "일반",
+        "stage": "일괄"
+      },
+      "sample_type": "regular_csat_perfect_score",
+      "input_profile": {
+        "profile": "perfect_score",
+        "description": "Required numeric axes are set to their maximum legal value; English and Korean history use grade 1."
+      },
+      "expected_output": {
+        "component": "csat",
+        "score": 720.0,
+        "unit": "points"
+      }
+    }
+  ]
+}

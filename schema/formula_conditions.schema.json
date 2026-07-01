@@ -10,10 +10,16 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "forta.edumentorix.formula_conditions.v1"
+      "const": "forta.edumentorix.formula_conditions.v1.1"
     },
     "summary": {
       "type": "object"
+    },
+    "aliasMap": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     },
     "items": {
       "type": "array",
@@ -41,53 +47,7 @@
           "type": "string"
         },
         "identity": {
-          "type": "object",
-          "required": [
-            "year",
-            "season",
-            "university",
-            "department",
-            "admission_type"
-          ],
-          "properties": {
-            "year": {
-              "type": "integer"
-            },
-            "season": {
-              "enum": [
-                "regular",
-                "susi"
-              ]
-            },
-            "university": {
-              "type": "string"
-            },
-            "campus": {
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "admission_group": {
-              "type": [
-                "string",
-                "null"
-              ]
-            },
-            "department": {
-              "type": "string"
-            },
-            "admission_type": {
-              "type": "string"
-            },
-            "stage": {
-              "type": [
-                "string",
-                "null"
-              ]
-            }
-          },
-          "additionalProperties": true
+          "type": "object"
         },
         "stages": {
           "type": "array"
@@ -105,7 +65,22 @@
           "type": "array"
         },
         "status": {
-          "type": "object"
+          "type": "object",
+          "properties": {
+            "data_status": {
+              "enum": [
+                "calculable",
+                "waiting_for_final_table",
+                "needs_data_fix",
+                "needs_review",
+                "not_calculable"
+              ]
+            }
+          },
+          "required": [
+            "data_status"
+          ],
+          "additionalProperties": true
         },
         "formula_text": {
           "type": "object"

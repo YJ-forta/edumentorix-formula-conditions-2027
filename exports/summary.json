@@ -1,15 +1,28 @@
 {
-  "schema_version": "forta.edumentorix.formula_conditions.v1",
-  "generated_at": "2026-06-30T15:29:48.164737+00:00",
+  "schema_version": "forta.edumentorix.formula_conditions.v1.1",
+  "generated_at": "2026-07-01T16:13:07.667450+00:00",
   "admission_year": 2027,
   "item_count": 3710,
   "status_counts": {
-    "calculable": 3610,
+    "calculable": 3533,
+    "not_calculable": 77,
     "waiting_for_final_table": 100
   },
   "season_counts": {
     "regular": 1355,
     "susi": 2355
   },
-  "external_dependency_count": 100
+  "external_dependency_count": 100,
+  "non_calculable_count": 77,
+  "provisional_review_count": 0,
+  "formula_text_raw_empty_count": 0,
+  "grade_table_coverage": {
+    "english": 1282,
+    "korean_history": 1282
+  },
+  "rounding_rule_counts": {
+    "not_specified_in_source": 1282
+  },
+  "alias_count": 23,
+  "expected_output_sample_count": 115
 }
